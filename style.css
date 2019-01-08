@@ -1,0 +1,45 @@
+/* By fadilxcoder */
+html, body{
+    margin: 0px;
+    background: #D8D5D2;
+    color: #333;
+    font-family: Open Sans;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+.title, .copyright{
+    text-align: center;
+}
+h1{
+    font-weight: 900;
+    font-size: 46px;
+    color: #D26;
+    letter-spacing: 10px;
+}
+h2{
+    font-weight: 100;
+    font-size: 26px;
+    color: #000;
+}
+.copyright{
+    margin: 25px 0px; 
+}
+/* ---- Masonry CSS ---- */
+.grid-sizer, .grid-item {
+    width: 25%;
+}
+.grid-item {
+    float: left;
+}
+.grid-item img {
+    display: block;
+    max-width: 100%;
+}
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* ---- EOF Masonry CSS ---- */
